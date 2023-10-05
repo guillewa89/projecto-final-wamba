@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap');
+
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/********* HEADER *********/
+
+
+header{
+    background-color: #63BFAE;
+    display: flex;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+
+}
+.navbar li a{
+    display: flex;
+    gap: 1.25rem;
+    padding-right: 1.25rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+
+/********* MAIN *********/
+
+
+.tendenciasFondo{
+    background-color: aqua;
+}
+.tendenciasParrafo {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+.decorativosFondo{
+    background-color: rgb(255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+}
+.decorativosImagen{
+    position: relative right;
+}
+
+
+.promocionesFondo{
+    background-color: blueviolet;
+}
+.promocionesParrafo{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navProductos{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+.navProductos li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nuestrosClientes{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.sectionClientes{
+    font-family: 'Roboto', sans-serif;
+}
+
+.SectionNosotros{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+/********* FOOTER *********/
+
+
+footer{
+    background-color: #63BFAE;
+    display: flex;
+}
